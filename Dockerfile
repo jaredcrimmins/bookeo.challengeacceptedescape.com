@@ -2,7 +2,7 @@
 
 # Build Stage 0
 # Build the application.
-FROM node:22.18.0 AS base
+FROM node:22 AS base
 
 WORKDIR /usr/app
 
